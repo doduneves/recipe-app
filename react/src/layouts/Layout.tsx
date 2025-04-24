@@ -7,7 +7,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col">
-      <header className="bg-blue-500 text-white py-4">
+      <header className="bg-orange-500 text-white py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-2xl font-bold">Delicious Recipes :)</h1>
         </div>

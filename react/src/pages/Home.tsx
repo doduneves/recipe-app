@@ -57,7 +57,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="container">
-      <h1 className="text-3xl font-bold mb-4">All Recipes</h1>
+      <h1 className="text-xl font-bold mb-4">All Recipes</h1>
       <form onSubmit={handleSearchSubmit} className="mb-4 flex">
         <input
           type="text"

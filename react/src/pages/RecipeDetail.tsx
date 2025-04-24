@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { RecipeType } from "../types/recipe.type";
+import BackButton from "../components/BackButton";
 
 const RecipeDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -60,6 +61,7 @@ const RecipeDetailPage: React.FC = () => {
       </div>
       <p>Created At: {new Date(recipe.createdAt!).toLocaleDateString()}</p>
       <p>Updated At: {new Date(recipe.updatedAt!).toLocaleDateString()}</p>
+      <BackButton />
     </div>
   );
 };
