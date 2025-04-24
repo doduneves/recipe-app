@@ -1,5 +1,7 @@
 # Recipe APP
 
+![image](https://github.com/user-attachments/assets/757ad2de-72f3-4ae3-abdf-4ad16d1b4b8b)
+
 ## API
 The backend was created using Express and Mongo
 
