@@ -8,6 +8,9 @@ You need a mongo server running. Can do it with docker:
 docker run -d -p 27017:27017 --name mongodb mongo
 ```
 
+Open the `/api` folder
+
+
 Then, install the dependencies:
 ```
 npm i
@@ -28,6 +31,9 @@ npm run dev
 
 ### Front
 The frontend was created using React, Vite and Tailwind
+
+Open the `/react` folder
+
 
 First create the .env.local file with the params
 ```
