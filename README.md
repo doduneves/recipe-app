@@ -29,7 +29,13 @@ Then you can run
 npm run dev
 ```
 
-### Front
+### Data Seed
+To run the script for populating initial data:
+```
+ts-node scripts/seedRecipes.ts
+```
+
+## Front
 The frontend was created using React, Vite and Tailwind
 
 Open the `/react` folder
